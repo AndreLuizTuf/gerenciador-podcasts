@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import { Podcast } from "../models/podecast-model";
+import { Podcast } from "../models/podcast-model";
 
 
 
