@@ -1,8 +1,7 @@
-import { repositoryPodcast } from "../repositories/podcasts-repository"
-
+import { repositoryPodcast } from "../repositories/podcasts-repository";
 
 export const serviceFilterEpisodes = async (podcastName: string) => {
-    const data = await repositoryPodcast(podcastName);
+  const data = await repositoryPodcast(podcastName);
 
-    return data;
-}
+  return data;
+};

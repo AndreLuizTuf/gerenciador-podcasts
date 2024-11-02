@@ -13,8 +13,8 @@ export const repositoryPodcast = async (
 
   if (podcastName) {
     jsonFile = jsonFile.filter(
-        (podcast: PodcastModel) => podcast.podcastName === podcastName
-    )
+      (podcast: PodcastModel) => podcast.podcastName === podcastName
+    );
   }
   return jsonFile;
 };
